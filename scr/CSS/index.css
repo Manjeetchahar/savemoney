@@ -1,0 +1,263 @@
+header { 
+  height: 50px;
+  background-color: #005685;
+
+}
+
+body {
+  background: rgb(255, 255, 255);
+  margin: 0;
+  height: 100%;
+  min-height: 100%
+} 
+
+footer {
+  height: 34px;
+  background-color:  #005685;
+  color: azure;
+  text-align: center;
+}
+
+.topbar {
+   display: block; 
+   size: 25px;
+}
+
+.title {
+  size: 25px;
+  position: relative;
+  color: #e7eef1;
+  right: 92px;
+  left: 55px;
+  top: -37px;
+}
+
+.topbar-right a{
+  color:#e7eef1;
+  float: right;
+  padding: 15px;
+}
+
+.access-link {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;   /*Remove underline from text*/
+}
+
+.topbar-left {
+  display: inline-flexbox;
+  float: left;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img{
+  width: 55px;
+  height: 50px;
+  position: relative;
+  right: 25px;
+  left: -24px;
+
+}
+
+.topbar-left {
+  font-size: 20px;
+  text-align: center;            
+}
+
+/*-------------Navbar-----------------*/
+.Navbar{
+  height: 54px;
+  width: 100%;
+}
+
+ul{
+    margin: 10px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    width: 1903px;
+    height: 54px;
+
+}
+
+li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    left: 382PX;
+    top: 0px;
+}
+
+li:hover {
+  background-color: #70a1bb85;
+}
+
+li a{
+  color: #101315;
+  text-decoration: none;
+  font-size: 20px;  
+}
+
+.home-advice-container{
+    display: flex;
+    justify-content: center;
+    background-color:#d5e8f2;;
+}
+
+.home-advice-container div{
+    background-color: #d5e8f2;
+    margin: 1px;
+    padding: 20px;
+    font-size: 21px;
+}
+
+ .col-advice {
+    display: flex;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    width: 348px;
+    height: 65px;
+} 
+
+.fonticon-container{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 21px;
+  width: 15%;
+} 
+
+.Easyprocess{
+  background-image: url(https://www.incometax.gov.in/iec/foportal/sites/default/files/2020-10/TDSOnCash.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  width: 133%;
+  position: relative;
+  top: -28px;
+} 
+.Protecteddata{
+  background-image: url(https://www.incometax.gov.in/iec/foportal/sites/default/files/2020-06/instant_E-PAN.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  width: 151%;
+  position: relative;
+  left: -10px;
+  top: -28px;
+} 
+
+.timeicon {
+  background-image: url(https://www.incometax.gov.in/iec/foportal/sites/default/files/2021-01/Verify%20Service%20request_0.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  width: 133%;
+  position: relative;
+  top: -28px;
+  left: -3px;
+}
+
+.home-top-ctn {
+  position: relative;height: 410px;top: 24px;
+}
+
+.ctn-left{
+  height: 337px;width: 1000px;
+}
+
+.ctn-right { 
+  background-image: url(../Image/making_money_515825.jpg);
+  background-repeat: no-repeat;
+  height: 327px;
+  width: 597px;
+  position: relative;
+  top: -315px;
+  left: 1042px;
+}
+
+.left h1{
+  position:relative;left: 275px;color: #005685;top: 66px; font-size: xxx-large;width: 671px;
+}
+
+.left h2{
+  position: relative;left: 347px;top: 94px; font-style: italic;
+}
+
+.USP-Points{
+  margin-top: 132px;margin-left:162px;
+}
+
+p{
+  display: flex;font-style: italic;
+}
+
+.home-interface{
+  position: relative;
+  height: 175px;
+  background-color:#005685 ;
+}
+
+.home-interface h1{
+  position:relative;left: 275px;top: 47px; font-size: xxx-large;color: #e7eef1;right: auto;margin-bottom: 0px;width: 443px;
+}
+
+.links-container{
+  display: flex;
+  position: relative;
+  left: 1024px;
+  top: 0px;
+  width: 532px;
+}
+
+.links-container a{
+  background-color: #d5e8f2;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.links-container :hover {
+  background-color: #d5dee285;
+}
+
+.home-middle-ctn .ctn-right { 
+  background-image: url(https://assets1.cleartax-cdn.com/cleartax/images/1605855097_desktop_fold_readytogetstarted_rhs.png);
+  background-repeat: no-repeat;
+  height: 327px;
+  width: 597px;
+  position: relative;
+  top: -239px;
+  left: 883px;
+}
+
+.home-middle-ctn .left h1{
+  position:relative;left: 275px;color: #005685;top: 158px; font-size: xxx-large;width: 671px;
+}
+
+
+#Contact {
+  height: 143px;
+  width: 1902px;
+}
